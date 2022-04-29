@@ -14,6 +14,3 @@ const eval_valid = (code) => {
         return false;
     }
 }
-
-
-export default eval_valid;
