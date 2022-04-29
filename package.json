@@ -1,0 +1,19 @@
+{
+  "name": "evalvalid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "evalvalid.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikachu2012/evalvalid.js.git"
+  },
+  "author": "nikachu2012 <https://portfolio.nikachu.net/>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikachu2012/evalvalid.js/issues"
+  },
+  "homepage": "https://github.com/nikachu2012/evalvalid.js#readme"
+}
