@@ -4,7 +4,7 @@
  * @returns {boolean}
  */
 
-const temp = /\{|\}|\[|\]|\"|\'|\`|\:|\;|\+|\-|\/|\\|\!|\#|\%|\&|\(|\)|\=|\~|\*|\<|\>|\?|\_/g;
+const temp = /\{|\}|\[|\]|\"|\'|\`|\;|\\|/g;
 
 const eval_valid = (code) => {
     if (code.match(temp)) {
