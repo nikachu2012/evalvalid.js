@@ -5,7 +5,7 @@
  */
 
 const eval_valid = (code) => {
-    if (code.search(/\{|\}|\[|\]|\"|\'|\`|\;|\\/g) == -1) {
+    if (code.search(/\{|\}|\[|\]|\"|\'|\`|\;|\,|\\/g) == -1) {
         return false;
     }
     else {
