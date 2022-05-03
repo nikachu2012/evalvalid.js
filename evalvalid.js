@@ -5,10 +5,10 @@
  */
 
 const eval_valid = (code) => {
-    if (code.indexOf(/\{|\}|\[|\]|\"|\'|\`|\;|\\|/g) != -1) {
-        return true;
+    if (code.search(/\{|\}|\[|\]|\"|\'|\`|\;|\\/g) == -1) {
+        return false;
     }
     else {
-        return false;
+        return true
     }
 }
